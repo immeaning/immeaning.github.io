@@ -27,7 +27,7 @@ a, p {
 	text-decoration: none;
 }
 
-span {font-size: 13px;}
+span {color: gray;}
 
 .tagline img {
 	height: 22px;
@@ -46,6 +46,8 @@ video, #video {
 
  	object-fit: cover;
 }
+
+video {transform: rotate(180deg) scaleX(-1);}
 
 #logo {position: absolute; top: calc(50vh + 80px); left: 50vw; transform: translate(-50%, -50%); color: white;}
 
